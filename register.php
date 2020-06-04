@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css">
     </head>
     <body>
-        <p><a href="http://localhost/phase1-3html-2web-LoginRegistrationProject/phase1-phplogin/index.php">&larr; Back to Index.php!</p>
+        <p><a href="http://localhost/phase1-3html-2web-LoginRegistrationProject/phase1-phplogin/index.php">&larr; Back to Index.php!</a></p>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -41,6 +41,7 @@
 			            <input class="uk-input" id="form-stacked-text" type="password" required='required' placeholder="Your Password">
 			        </div>
 			    </div>
+                <div class="uk margin uk-alert uk-alert-danger js-error" style="display: none;"></div>
 
 			    <div class="uk-margin">
 			        <button class="uk-button uk-button-default" type="submit">Register</button>
